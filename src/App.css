@@ -1,0 +1,283 @@
+.Cootels{
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 600;
+line-height: 39.01px;
+text-align: left;
+}
+a{
+    text-decoration: none;
+}
+.textCenter{
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+margin-left: 20px;
+margin-top: 10px;
+}
+.btnStarted{
+width: Hug (121px)px;
+height: Hug (47px)px;
+top: 37px;
+left: 1199px;
+padding: 14px 16px 14px 16px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+background-color: #0E1734;
+color: white;
+border: none;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.texth1Container1{
+font-family: Montserrat;
+font-size: 48px;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: 1px;
+text-align: left;
+color: #192252;
+}
+.textpContainer1{
+font-family: Inter;
+font-size: 18px;
+letter-spacing: 2px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+color: #848FAC;
+margin-top: -35px;
+
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.right1{
+    display: flex;
+}
+.imgHome{
+    margin-right: 40px;
+}
+.btnReservation{
+width: Hug (156px)px;
+height: Hug (51px)px;
+top: 496px;
+left: 121px;
+padding: 16px 32px 16px 32px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+background-color:  #0E1734;
+color: white;
+border: none;
+
+}
+.texth1Container2{
+font-family: Montserrat;
+letter-spacing: 1px;
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: -0.0eem;
+text-align: left;
+color: #192252;
+margin-top: 60px;
+}
+.container2{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.textDownp1C2{
+    margin-top: 35px;
+    letter-spacing: 2px;
+}
+.right2{
+    margin-left: 150px;
+}
+.textTiop1C2{
+    margin-top: 15px;
+}
+.btnLearnMore{
+width: Hug (151px)px;
+height: Hug (51px)px;
+top: 500px;
+left: 630px;
+padding: 16px 32px 16px 32px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+background-color: #0E1734;
+color: white;
+border: none;
+}
+
+
+.container3{
+    display: flex;
+}
+
+.texth1Container3{
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 1px;
+letter-spacing: -0.01em;
+color: #192252;
+text-align: left;
+}
+.textpContainer3{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+letter-spacing: 2px;
+color: #848FAC;
+}
+.left3{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.right3{
+    margin-left: 210px;
+}
+
+.container4{
+    display: flex;
+    margin-top: 80px;
+}
+.left4{
+    margin-left: 120px;
+}
+.right4{
+    margin-left: 210px;
+}
+.texth1Container4{
+ font-family: Montserrat;
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: -0.01em;
+text-align: left;
+color: #192252;
+letter-spacing: 1px;
+}
+.textpContainer4{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 2px;
+text-align: left;
+color:#848FAC;
+}
+
+.text1{
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+text-align: center;
+letter-spacing: 1px;
+text-align: center;
+margin-top: 10xp;
+color: #192252;
+}
+
+.text2{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 2px;
+text-align: center;
+color: #848FAC;
+}
+.btnExploremore{
+ width: Hug (165px)px;
+height: Hug (51px)px;
+top: 244px;
+left: 638px;
+padding: 16px 32px 16px 32px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+background-color: #0E1734;
+color: white;
+margin: auto;
+margin-left: 790px;
+align-items: center;
+text-align: center;
+border: none;
+}
+
+
+/* Для мобильных устройств */
+@media (max-width: 767px) {
+    .container1 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+    }
+    .right1 {
+      flex-direction: column;
+    }
+    .imgHome {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    .btnReservation, .btnLearnMore, .btnExploremore {
+      width: 100%; /* Здесь можно задать нужную ширину кнопки для мобильных устройств */
+      margin-top: 20px;
+      left: auto;
+    }
+    .texth1Container2, .texth1Container3, .texth1Container4, .text1 {
+      text-align: center;
+      margin-left: 0;
+    }
+  }
+  
+  /* Для планшетов */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Ваши стили для планшетов */
+  }
+  
+  /* Для других размеров экранов или устройств */
+  @media (min-width: 1024px) {
+    /* Стандартные стили для больших экранов */
+  }
+  
+
+/* @media only screen and (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .center {
+      margin-top: 20px;
+    }
+  
+    .textCenter {
+      margin: 10px 0;
+      margin-left: 10px;
+    }
+  
+    .btnStarted {
+      width: auto;
+      height: auto;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  }
+   */
